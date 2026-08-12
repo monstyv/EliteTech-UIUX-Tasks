@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Focus — Responsive Landing Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="logo" href="#">Focus<span>.</span></a>
+    <button class="menu" id="menuBtn" aria-label="Toggle menu">☰</button>
+    <nav id="navLinks">
+      <a href="#features">Features</a>
+      <a href="#workflow">Workflow</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">SMARTER WORKFLOW</p>
+        <h1>Turn scattered work into <span>clear progress.</span></h1>
+        <p class="lead">A simple productivity workspace for planning projects, tracking tasks and staying focused.</p>
+        <div class="actions">
+          <a class="btn primary" href="#features">Explore features</a>
+          <a class="btn secondary" href="#workflow">See workflow</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="card-top"><span>Today</span><span class="dot"></span></div>
+        <h3>Weekly progress</h3>
+        <div class="progress"><span></span></div>
+        <div class="stats"><strong>72%</strong><small>completed</small></div>
+        <div class="task"><i></i><span>Plan content</span><b>Done</b></div>
+        <div class="task"><i></i><span>Edit project</span><b>Today</b></div>
+        <div class="task"><i></i><span>Review feedback</span><b>Next</b></div>
+      </div>
+    </section>
+
+    <section id="features" class="section">
+      <p class="eyebrow">FEATURES</p>
+      <h2>Everything you need to stay on track.</h2>
+      <div class="grid">
+        <article><div class="icon">✓</div><h3>Simple planning</h3><p>Break large projects into small, manageable actions.</p></article>
+        <article><div class="icon">↗</div><h3>Progress at a glance</h3><p>See what is done, what is active and what needs attention.</p></article>
+        <article><div class="icon">◷</div><h3>Focused sessions</h3><p>Work in distraction-free sessions with clear priorities.</p></article>
+      </div>
+    </section>
+
+    <section id="workflow" class="section workflow">
+      <p class="eyebrow">WORKFLOW</p>
+      <h2>Plan → Focus → Finish</h2>
+      <div class="steps">
+        <div><strong>01</strong><h3>Plan</h3><p>Choose the most important tasks.</p></div>
+        <div><strong>02</strong><h3>Focus</h3><p>Work without unnecessary distractions.</p></div>
+        <div><strong>03</strong><h3>Finish</h3><p>Review progress and move forward.</p></div>
+      </div>
+    </section>
+
+    <section id="contact" class="cta">
+      <h2>Ready to work with more clarity?</h2>
+      <button class="btn primary" id="demoBtn">Start a demo</button>
+      <p id="demoMsg" class="demo-msg"></p>
+    </section>
+  </main>
+
+  <footer>© 2026 Focus. Responsive Design Implementation.</footer>
+  <script src="script.js"></script>
+</body>
+</html>
